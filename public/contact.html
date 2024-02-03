@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Prompt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/726/726056.png">
+    <title>Portfolio</title>
+    
+</head>
+<body>
+
+    <!-- Header -->
+
+    <header id="header__inner">
+        <div class="container">
+            <nav class="main-nav">
+              <a href="index.html"><img src="img/logo.png" alt="" class="main-nav__logo"></a>
+                <ul class="main-nav__items">
+                    <li><a href="index.html">ANASAYFA</a></li>
+                    <li><a href="about.html">HAKKIMDA</a></li>
+                    <li><a href="projects.html">PROJELER</a></li>
+                    <li><a href="contact.html" class="active">İLETİŞİM</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Section A -->
+
+    <section id="contact-a" class="text-center py-2">
+        <div class="container">
+            <h2 class="section-title">İLETİŞİM</h2>
+            <div class="border-bottom"></div>
+            <p class="lead">İletişime geçmek için lütfen ilgili alanları doldurun</p>
+            <form action="https://formspree.io/f/xyyrekvl" method="POST">
+                <div class="form-fields">
+                    <input type="text" class="name input" name="fullname" id="fullname" placeholder="İsim">
+                    <input type="text" class="text input" name="subject" id="subject" placeholder="Konu">
+                    <input type="email" class="email input" name="email" id="email" placeholder="E-mail">
+                    <input type="tel" class="phone input" name="phone" id="phone" placeholder="Telefon">
+                    <textarea name="message" class="message input" id="message" placeholder="Mesajınız"></textarea>
+                    <button type="submit" class="btn-dark">Gönder</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Section B -->
+
+    <section id="contact-b" class="bg-primary py-4">
+        <div class="container">
+            <div class="contact-info">
+                <div>
+                    <i class="fas fa-envelope fa-2x"></i>
+                    <h3>E-mail</h3>
+                    <p>beratates394@gmail.com</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-github fa-2x"></i>
+                    <h3>Github</h3>
+                    <p>berathubb</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-instagram fa-2x"></i>
+                    <h3>İnstagram</h3>
+                    <p>_atesberat_</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-location-dot fa-2x"></i>
+                    <h3>Adres</h3>
+                    <p>İstanbul / Sultangazi</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer id="main-footer">
+        <div class="footer-content container">
+            <p>Copyright &copy; 2024 Tüm Hakları Saklıdır</p>
+
+            <div class="social">
+                <a href="https://www.instagram.com/_atesberat_/" target="_blank" class="account"><i class="fab fa-instagram"></i></a>
+               <a href="https://www.linkedin.com/in/berat-ateş-1b7a96291" target="_blank" class="account"> <i class="fab fa-linkedin"></i></a>
+               <a href="https://github.com/berathubb?tab=repositories" target="_blank" class="account"> <i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="../node_modules/lightbox2/dist/js/lightbox.min.js"></script>
+    
+    
+</body>
+</html>
